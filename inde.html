@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda Alviverde - Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://logodetimes.com/wp-content/uploads/palmeiras.png"
+        alt="Escudo Palmeiras"
+        class="logo"
+      />
+      <h1>Agenda Alviverde</h1>
+    </header>
+
+    <div class="container">
+      <h2>Minhas Tarefas</h2>
+      <form id="task-form">
+        <input
+          type="text"
+          id="task-input"
+          placeholder="Digite uma nova tarefa..."
+          required
+        />
+        <button type="submit">Adicionar</button>
+      </form>
+
+      <ul id="task-list"></ul>
+    </div>
+
+    <footer>
+      <p>"Ser Palmeirense é ser campeão em cada detalhe!"</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
